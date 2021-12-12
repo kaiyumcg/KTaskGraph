@@ -17,10 +17,10 @@ namespace KTaskGraph
 #if UNITY_EDITOR
         private protected bool isRunning = false, completed = false;
         internal string nodeName = "";
-        public List<TaskNode> NextNormalNodes { get { return nextNormalNodes; } }
-        public List<ParallelTaskNode> NextParallelNodes { get { return nextParallelNodes; } }
-        public List<BaseNode> NextNodes { get { return nextNodes; } }
-        public string NodeName { get { return nodeName; } }
+        internal List<TaskNode> NextNormalNodes { get { return nextNormalNodes; } }
+        internal List<ParallelTaskNode> NextParallelNodes { get { return nextParallelNodes; } }
+        internal List<BaseNode> NextNodes { get { return nextNodes; } }
+        internal string NodeName { get { return nodeName; } }
 #endif
         public bool IsRunning { get { return isRunning; } }
         public bool HasBeenCompleted { get { return completed; } }

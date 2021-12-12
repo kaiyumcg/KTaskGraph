@@ -16,7 +16,7 @@ namespace KTaskGraph
         internal List<BaseNode> RootNodes { get { return rootNodes; } }
 
 #if UNITY_EDITOR
-        public string GraphName { get { return graphName; } }
+        internal string GraphName { get { return graphName; } }
 #endif
 
         int totalNodeCount = 0, completedCount = 0;

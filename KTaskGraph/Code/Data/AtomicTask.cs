@@ -14,9 +14,9 @@ namespace KTaskGraph
         Coroutine internalHandle = null;
 
 #if UNITY_EDITOR
-        public string TaskName { get { return taskName; } }
-        public bool IsRunning { get { return running; } }
-        public bool HasBeenCompleted { get { return completed; } }
+        internal string TaskName { get { return taskName; } }
+        internal bool IsRunning { get { return running; } }
+        internal bool HasBeenCompleted { get { return completed; } }
 #endif
 
         internal void SetRunner(TaskGraphRunner runner)
