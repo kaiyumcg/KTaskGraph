@@ -7,7 +7,7 @@
   "description": "Hierarchial Task Graph sytem for gameplay programming",
   "category": "Unity",
   "keywords": [
-    "Save System"
+    "Task", "Graph"
   ],
   "dependencies": {
 	"com.kaiyum.attributeext": "https://github.com/kaiyumcg/AttributeExt.git",
