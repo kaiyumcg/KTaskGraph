@@ -1,7 +1,12 @@
 {
     "name": "KTaskGraph",
     "rootNamespace": "",
-    "references": [],
+    "references": [
+        "UnityExt",
+        "XNode",
+        "AttributeExt",
+        "Textus.SerializeReferenceUI"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
