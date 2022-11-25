@@ -4,6 +4,13 @@
 ## **A hierarchical asynchronous task system on top of Unityengine coroutine feature.**
 
 
+#### Installation:
+* Add an entry in your manifest.json as follows:
+```C#
+"com.kaiyum.ktaskgraph": "https://github.com/kaiyumcg/KTaskGraph.git"
+```
+
+
 ### **<span style="text-decoration:underline;">Workflow:</span>**
 
 
