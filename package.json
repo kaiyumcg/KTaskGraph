@@ -1,14 +1,19 @@
 {
   "name": "com.kaiyum.ktaskgraph",
-  "author": "Md Al Kaiyum",
   "displayName": "KTaskgraph",
   "version": "1.0.0",
-  "unity": "2018.3",
+  "unity": "2020.3.20f1",
   "description": "Hierarchial Task Graph sytem for gameplay programming",
+  "licence": "MIT",
   "category": "Unity",
   "keywords": [
-    "Task", "Graph"
+    "Task",
+    "Graph"
   ],
+  "author": {
+    "name": "Md Al Kaiyum",
+    "url": "https://github.com/kaiyumcg"
+  },
   "dependencies": {
     "com.kaiyum.unityext": "https://github.com/kaiyumcg/UnityExt.git",
     "com.github.siccity.xnode": "https://github.com/siccity/xNode.git",
