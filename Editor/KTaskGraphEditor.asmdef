@@ -1,12 +1,14 @@
 {
-    "name": "KTaskGraph",
+    "name": "KTaskGraphEditor",
     "rootNamespace": "",
     "references": [
-        "AttributeExt",
-        "UnityExt",
-        "XNode"
+        "EditorUtil",
+        "XNode",
+        "XNodeEditor"
     ],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
