@@ -14,8 +14,9 @@ namespace KTaskGraph
         internal TaskGraph graphData = null;
         private protected bool isNodeDirty = false;
 
-#if UNITY_EDITOR
         private protected bool isRunning = false, completed = false;
+#if UNITY_EDITOR
+
         internal string nodeName = "";
         internal List<TaskNode> NextNormalNodes { get { return nextNormalNodes; } }
         internal List<ParallelTaskNode> NextParallelNodes { get { return nextParallelNodes; } }
